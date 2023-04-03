@@ -2,7 +2,7 @@
 
 WindowManager* WindowManager::m_instance = nullptr;
 
-WindowManager* WindowManager::GetInstance() 
+WindowManager* WindowManager::GetInstance()
 {
 	if (m_instance == nullptr)
 	{
@@ -12,7 +12,7 @@ WindowManager* WindowManager::GetInstance()
 	return m_instance;
 }
 
-WindowManager::WindowManager() 
+WindowManager::WindowManager()
 {
 	m_window = nullptr;
 	m_width = 1920;

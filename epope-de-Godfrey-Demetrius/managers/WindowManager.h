@@ -1,3 +1,4 @@
+#pragma once
 #include <SFML/Graphics.hpp>
 
 class WindowManager {
@@ -12,4 +13,7 @@ public:
 	WindowManager();
 	sf::RenderWindow* CreateWindow(int width, int height, std::string name);
 	sf::RenderWindow* GetWindow();
+	int GetWidth();
+	int GetHeight();
+	std::string GetName();
 };
