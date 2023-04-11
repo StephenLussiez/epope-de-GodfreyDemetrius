@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	GameEngine* newGame = new GameEngine();
-	newGame->Gameloop();
-	return (0);
+    GameEngine* newGame = new GameEngine();
+    newGame->Gameloop();
+    return (0);
 }

@@ -133,19 +133,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Entity.ixx" />
-    <ClCompile Include="managers\EventHandler.ixx" />
-    <ClCompile Include="managers\IEvent.ixx" />
+    <ClCompile Include="Entity.cpp" />
     <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="Mobs.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Module\DrawableSprite.cpp" />
     <ClCompile Include="WindowManager.cpp" />
-    <ClCompile Include="Mobs.ixx" />
-    <ClCompile Include="Module\DrawableSprite.ixx" />
-    <ClCompile Include="Player.ixx" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="managers\Entity.h" />
+    <ClInclude Include="managers\EventHandler.h" />
     <ClInclude Include="managers\GameEngine.h" />
+    <ClInclude Include="managers\IEvent.h" />
+    <ClInclude Include="managers\Mobs.h" />
+    <ClInclude Include="managers\Player.h" />
     <ClInclude Include="managers\WindowManager.h" />
+    <ClInclude Include="Module\DrawableSprite.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
